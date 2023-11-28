@@ -1,0 +1,43 @@
+.reviewCard {
+  margin: 2rem 0rem;
+  margin-left: 3rem;
+  min-height: 200px;
+  width: 300px;
+  max-width: 100%;
+  flex: none;
+  box-shadow: 2px 2px 6px #bebebe, -2px -2px 6px #bebebe;
+  border-radius: 5px;
+}
+
+.reviewCard-1 {
+  padding: 0.5rem 1rem;
+  display: flex;
+}
+
+.reviewCard-1-1 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.6rem;
+}
+
+.reviewCard-1-1 > div:first-child {
+  font: 550 1rem roboto;
+}
+.reviewCard-1-1 > div:last-child {
+  padding-top: 0.2rem;
+  font: 400 0.9rem sans-serif;
+}
+
+.reviewCard-2 {
+  padding: 0rem 1rem;
+}
+
+.reviewCard-3 {
+  padding: 1rem;
+}
+
+.reviewCard > div > img {
+  width: 40px;
+}

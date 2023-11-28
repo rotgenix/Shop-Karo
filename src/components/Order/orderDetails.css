@@ -1,0 +1,86 @@
+.orderDetailsContainer {
+  min-height: 80vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.orderDetailsContainerSection-1 {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  font: 600 1.7rem roboto;
+}
+
+.orderDetailsContainerSection-2 {
+  padding: 10px;
+  font: 600 1.3rem roboto;
+}
+
+.orderDetailsContainerSection-3 {
+  background-color: #f1f1f1;
+  color: black;
+  font-weight: 600;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 15px;
+  font-family: roboto;
+}
+
+.orderDetailItems {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.orderDetailItems > div:first-child {
+  display: flex;
+  align-items: center;
+
+  > img {
+    width: 150px;
+    max-height: 150px;
+  }
+
+  > p {
+    padding: 20px;
+    font: 600 1rem sans-serif;
+    overflow: hidden;
+  }
+}
+
+.orderDetailItems > div {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.77);
+}
+
+.orderDetailsContainerSection-4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.orderDetailsContainerSection-4 > div {
+  padding: 40px;
+  font: 600 1.5rem roboto;
+  color: rgba(0, 0, 0, 0.67);
+}
+.orderDetailsContainerSection-4 > div:first-child {
+  color: rgba(0, 0, 0, 0.88);
+}
+.orderDetailsContainerSection-4 > div:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+}
+.orderDetailsContainerSection-4 > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderDetailsContainerSection-4 > div > div > p:first-child {
+  color: rgba(0, 0, 0, 0.88);
+}

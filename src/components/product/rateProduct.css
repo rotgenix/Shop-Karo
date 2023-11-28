@@ -1,0 +1,95 @@
+.writeReviewContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+}
+
+.writeReviewContainer > div {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.writeReviewSection-1 > div:first-child {
+  font: 600 1.3rem sans-serif;
+}
+.writeReviewSection-1 > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 400 1rem sans-serif;
+  margin: 1rem 0rem;
+}
+
+.reviewStars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.writeReviewSection-2 {
+  margin: 1.5rem 0rem;
+}
+
+.writeReviewSection-2-1 {
+  font: 600 1.2rem sans-serif;
+}
+.writeReviewSection-2-2 {
+  margin: 2rem 0rem;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  min-height: 30vh;
+  box-shadow: none;
+}
+
+.writeReviewSection-2-2 > div:first-child {
+  padding: 10px;
+  font: 600 1.1rem roboto;
+  letter-spacing: 0.5px;
+}
+
+.writeReviewSection-2-2 > div:last-child {
+  padding: 10px;
+  letter-spacing: 0.5px;
+}
+
+#reviewCommentBox {
+  border: none;
+  width: 99.7%;
+  height: 100%;
+  margin-top: 10px;
+  background-color: inherit;
+  font: 500 1.2rem sans-serif;
+  padding: 10pxy;
+}
+
+.writeReviewSection-3 {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: end;
+}
+.writeReviewSection-3 > button {
+  padding: 10px 60px;
+  display: flex;
+  justify-content: end;
+  background-color: #fb641b;
+  color: white;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+}
+.redText {
+  color: red;
+}
+
+.yellowText {
+  color: #ff9f3f;
+}
+
+.greenText {
+  color: #388e3c;
+}

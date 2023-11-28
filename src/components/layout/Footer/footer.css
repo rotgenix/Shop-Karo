@@ -1,0 +1,56 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.leftfooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftfooter>p{
+    text-align: center;
+}
+
+.leftfooter>img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.midfooter{
+    width: 60%;
+    text-align: center;
+}
+
+.midfooter>h1{
+    font-size: 4vmax;
+    font-family: "Roboto";
+    color: #eb4034;
+}
+
+.rightfooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightfooter>a{
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 5px;
+}
+
+.rightfooter>a:hover{
+    color: #eb4034;
+    transition: all 0.5s;
+}

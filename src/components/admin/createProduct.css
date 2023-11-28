@@ -1,0 +1,14 @@
+.createProductContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createProductContainer > form {
+  min-height: 60vh;
+  width: 35%;
+  padding: 50px 10px;
+  border: 1px solid #bebebe;
+  > div {
+    padding: 10px 0px;
+  }
+}

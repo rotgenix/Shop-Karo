@@ -1,0 +1,110 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.banner {
+  /* background-image: linear-gradient(to right, #635dc0, #3027ae);
+   */
+  background-image: linear-gradient(
+    to left bottom,
+    rgb(244, 63, 94),
+    rgb(67, 56, 202)
+  );
+  height: 100vmin;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: rgb(111, 100, 100); */
+  color: white;
+}
+
+.banner > p {
+  font: 300 2rem chilanka;
+}
+
+.banner > h1 {
+  margin: 5vmax;
+
+  font: 500 2.3rem chilanka;
+}
+
+.banner > a > button {
+  padding: 0.8rem;
+  width: 10rem;
+  font: 300 1.3rem roboto;
+  transition: all 0.5s;
+}
+
+.banner > a > button:hover {
+  border: 1px solid white;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.homeheading {
+  text-align: center;
+  font: 600 1.7rem roboto;
+  width: 18vmax;
+  border-bottom: 2px solid rgb(71, 67, 67);
+  margin: 5rem auto;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Container class */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  width: 93vw;
+  max-width: 100%;
+}
+
+/* Product card */
+
+.productCard {
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2rem;
+  align-content: center;
+  transition: all 0.5s;
+  padding-bottom: 0.5rem;
+}
+
+.productCard > img {
+  align-self: center;
+  width: 100px;
+}
+
+.productCard > div {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCard > div > span {
+  margin-left: 0.8rem;
+  font: 300 0.8rem roboto;
+}
+
+.productCard > p {
+  font-size: 1.2rem;
+  font-family: roboto;
+  margin: 1rem 0.7rem;
+}
+.productCard > span {
+  margin: 0.5rem;
+  font: 100 1.2rem "Franklin Gothic Medium";
+  color: tomato;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1rem);
+}

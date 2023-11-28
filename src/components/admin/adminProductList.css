@@ -1,0 +1,19 @@
+a{
+    color: black;
+    transition: all 0.5s;
+}
+
+a:hover{
+    color: tomato;
+    transform: scale(1.2);
+}   
+
+.deleteProductIcon{
+    border: none;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.deleteProductIcon:hover{
+    color: tomato;
+}

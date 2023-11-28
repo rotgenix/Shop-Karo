@@ -1,0 +1,98 @@
+.shippingContainer {
+  flex-wrap: wrap;
+  width: 100vw;
+  min-height: 80vh;
+  background-color: #ddd;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shippingBox {
+  background-color: white;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 70vh;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.shippingBoxSection-1 {
+  height: 100%;
+  width: 50%;
+}
+
+.shippingBoxSection-1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.shippingBoxSection-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shippingBoxSection-2 > div {
+  width: 80%;
+  height: 80%;
+  font-family: Roboto;
+}
+
+.shippingInfoForm > div {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  > input {
+    width: 100%;
+    border-radius: 4px;
+    line-height: 34.4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+  }
+}
+
+.shippingInfoForm > div > div {
+  > input {
+    width: 100%;
+    border-radius: 4px;
+    line-height: 34.4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+  }
+}
+
+.shippingCountry > select,
+.shippingState > select,
+.shippingCity > select {
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 0px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.69);
+  letter-spacing: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.29);
+}
+
+.placeOrderButton {
+  width: 100%;
+  display: flex;
+  justify-content: end !important;
+}
+
+.placeOrderButton > button {
+  background-color: #0080ff;
+  color: #ffffff;
+  box-shadow: rgb(20, 164, 77) 0px 4px 9px -4px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}

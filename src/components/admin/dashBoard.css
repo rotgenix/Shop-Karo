@@ -1,0 +1,67 @@
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-top: 100px;
+}
+
+.dashboard a {
+  text-decoration: none;
+  display: flex;
+  padding: 2rem;
+  color: black;
+}
+
+.dashboard a > p {
+  display: flex;
+  align-items: center;
+}
+
+.leftSideBar {
+  margin-right: 10px;
+  box-shadow: 1px 1px 1px #bebebe;
+}
+
+.dashboardSummary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dashboardSummary > div {
+  padding: 2rem;
+  margin: 10px;
+  border-radius: 10px;
+  min-height: 100px;
+
+  > p {
+    font: 500 1.5rem roboto;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.chartSection{
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.lineChart{
+    width: 50%;
+    margin: auto;
+}
+
+.doughnutChart{
+    width: 20vmax;
+    margin: auto;
+}
+
+.orderDetailsBox a{
+  margin: 0;
+  padding: 0;
+}
+
+.orderDetailsBox a:hover{
+    transform: none;
+    
+}

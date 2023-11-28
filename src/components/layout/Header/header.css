@@ -1,0 +1,207 @@
+#containerHeader {
+  top: 0;
+  background-color: transparent;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 2.5fr 2fr 3fr 1fr;
+  font-family: "Lato", sans-serif;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  position: fixed;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
+}
+#shopName {
+  text-align: start;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+}
+#shopName a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+}
+#shopName > b {
+  font-weight: 900;
+  font: black;
+}
+
+#collection {
+  display: flex;
+  justify-content: space-evenly;
+  font: 550 1.3rem roboto;
+  letter-spacing: 1px;
+}
+#collection a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+}
+
+#search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#search > input {
+  width: 250px;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+#search > button {
+  border: none;
+}
+
+.addedToCart {
+  font-size: 1.5em;
+  margin-right: 25px;
+}
+
+#searchIcon {
+  background-color: rgb(241, 241, 241);
+  margin-left: -4px;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+#searchIcon:hover {
+  transform: scale(1);
+}
+
+#searchIcon > img {
+  width: 25px;
+}
+#searchIcon > img:hover {
+  width: 28px;
+}
+
+#input {
+  width: 35em;
+  height: 3em;
+  padding: 2px 50px;
+  background-color: rgb(241, 241, 241);
+  border: none;
+  border-radius: 5px;
+}
+#input::placeholder {
+  font-weight: bold;
+}
+#input:focus {
+  outline: none;
+}
+
+#user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3rem;
+}
+
+#cart > a > img {
+  width: 30px;
+}
+#profile > a > img {
+  width: 30px;
+}
+
+/* Media Query */
+
+@media (max-width: 1300px) {
+  #collection {
+    font-size: 13px;
+  }
+  #input {
+    width: 25em;
+  }
+}
+@media (max-width: 1212px) {
+  #collection {
+    font-size: 13px;
+  }
+  #input {
+    width: 20em;
+  }
+  .addedToCart {
+    font-size: 1.5em;
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 1090px) {
+  #containerHeader {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+  }
+  #search {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  #shopName {
+    font-size: 28px;
+  }
+  #collection {
+    font-size: 12px;
+  }
+  .userIcon {
+    font-size: 35px;
+  }
+  .addedToCart {
+    font-size: 1.2em;
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  #shopName {
+    font-size: 24px;
+  }
+  #collection {
+    font-size: 10px;
+  }
+  .userIcon {
+    font-size: 30px;
+  }
+}
+@media (max-width: 550px) {
+  #containerHeader {
+    padding: 20px 25px;
+  }
+}
+
+/* Speed Dial  */
+.speedDialFragment {
+  top: 400px !important;
+  margin-top: 240px;
+}
+.MuiFab-primary {
+  background: transparent !important;
+  width: 0px !important;
+}
+.speedDialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+/* Scroll Behavior */
+.topHeader {
+  background-color: black;
+}
+.showHeader {
+  top: 0;
+  transition: all 0.1s !important;
+}
+.hideHeader {
+  transition: all 1s !important;
+  transform: translateY(-60px);
+}

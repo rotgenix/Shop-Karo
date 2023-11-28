@@ -1,0 +1,97 @@
+.confirmOrderSection {
+  background-color: #ddd;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: none;
+  
+}
+
+.confirmOrderBox {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 80%;
+  height: 90%;
+}
+
+.confirmOrderSection-1 {
+  width: 70%;
+  height: 100%;
+}
+
+.confirmAddress {
+  padding: 0px 20px;
+  width: 100% !important;
+  height: 15%;
+  display: flex;
+}
+.confirmAddress > div {
+  margin: 10px;
+  height: 80%;
+}
+.confirmAddressSection-1 {
+  width: 100%;
+  line-height: 20px;
+}
+
+.confirmAddressSection-1 > div:first-child {
+  font: 100 1.2rem roboto;
+  > span {
+    font: 500 1.2rem roboto;
+  }
+}
+
+.confirmAddressSection-1 > div:last-child {
+  color: #717478;
+  font: 200 1rem roboto;
+}
+
+.confirmAddressSection-2 {
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+
+  > button {
+    height: 50%;
+    color: #2874f0;
+    padding: 0px 20px;
+    background: none;
+    font: 600 14px roboto;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.confirmOrderItems {
+  width: 95%;
+  overflow: scroll;
+  height: 75%;
+  padding: 0px 20px;
+}
+
+.BackToHomeBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px;
+}
+.BackToHomeBtn > button {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+
+
+.confirmOrderSection-2 {
+  background-color: #ddd;
+  width: 30%;
+  height: 100%;
+}
